@@ -1,6 +1,8 @@
 extends KinematicBody2D
 
 var velocity = Vector2(0, 0)
+var coins = 0
+
 const SPEED = 260
 const GRAVITY = 30
 const JUMPFORCE = -900
@@ -34,6 +36,6 @@ func _physics_process(_delta):
 	
 	velocity.x = lerp(velocity.x, 0, 0.2)
 
-
+# Resetar a fase quando atingir a fall zone
 func _on_Fall_Zone_body_entered(body):
 	get_tree().change_scene("res://scenes/level1.tscn")
