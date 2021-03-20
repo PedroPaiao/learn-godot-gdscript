@@ -20,7 +20,6 @@
 [ext_resource path="res://assets/WorldTiles/tileYellow_19.png" type="Texture" id=18]
 [ext_resource path="res://assets/WorldTiles/tileYellow_26.png" type="Texture" id=19]
 
-
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 
